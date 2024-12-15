@@ -14,7 +14,7 @@ Below is the roadmap of planned features, with the current implementation status
 
 - [x] Understand services by testing them
   - [x] Being able to generate tests for services
-  - [] Summary tests as knowledges
+  - [ ] Summary tests as knowledges
 - [ ] Create agents by knowledges and tests
   - [ ] Create agents by knowledges
   - [ ] Improve agents by tests
