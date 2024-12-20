@@ -27,7 +27,7 @@ The second agent is developer who try to create new service to pass all test cas
 
 ### GAN methodology to improve each other
 
-Developer try to create new service that pass as many as test cases while tester try to create new test cases to identify it from target service.
+Developer try to create a fake service that pass as many as test cases while tester try to create new test cases to identify fake service from target service.
 
 ### Avoid over learning for legacy limit
 
