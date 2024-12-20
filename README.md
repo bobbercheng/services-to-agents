@@ -32,17 +32,27 @@ Developer try to create new service that pass as many as test cases while tester
 
 Both tester and developer will be punished if any reaches to legacy limit.
 
+## Usage
+
+### System design
+
+Revised version OpenHands + Claude Sonnet 3.5 is used. Session memory is persist in file.
+
+### Deployment guidelines
+
+Set Claude Sonnet API key with env variant LLM_API_KEY.
+To run Tester, run `sh tester.sh`.
+To run Developer, run `sh developer.sh`.
+
 ## Roadmap
 
 Below is the roadmap of planned features, with the current implementation status:
 
 - [x] Tester agent, Understand services by testing them
   - [x] Able to figure out how to run it by looking through code+document+log
-  - [x] Being able to generate tests for services
-  - [ ] Summary tests as knowledge
-- [ ] Developer agent, Create new service by knowledge and tests
-  - [ ] Create agents by knowledge
-  - [ ] Improve agents by tests
+  - [] Save session memory in vector DB.
+- [x] Developer agent, Create new service by knowledge and tests
+  - [x] Create new service by tests code
+  - [ ] Improve agents to pass tests
 - [ ] Improve agents by feedback
-  - [ ] Improve agents by reference code
   - [ ] Improve agents by feedback
