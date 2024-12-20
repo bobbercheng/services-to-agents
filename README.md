@@ -16,8 +16,9 @@ This tool is to convert *legacy* services especially with REST API interface to 
 - It only works with special(version) dependency libraries/services/env that's not available for everyone.
 - It's hard to extend current code for new feature without lots of refactoring due to tech debt.
 - Few people even nobody understand code due to limited/no document.
-However, *Legacy* services are still be used as they are still functional. The idea is we treat legacy service as an env or a teach,
-so we can build an agent by acting with legacy service with the goal of passing test or train student model. We can use multiple agents here.
+However, *Legacy* services are still be used as they are still functional.
+
+The idea here is we treat legacy service as an target, so we can use multiple agents to measure it by writing tests then minic it by passing test.
 
 ### Agents
 
